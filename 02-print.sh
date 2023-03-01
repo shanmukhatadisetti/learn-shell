@@ -11,3 +11,8 @@ echo Hello world
 # blue         34
 #magenta       35
 #cyan          36
+
+# \e[0m -> Zero code is going to reset the color, Meaning if we enable color for sure we need it, otherwise the color will continue on screen
+
+echo -e "\e[31mhello in red color"
+echo hello world
