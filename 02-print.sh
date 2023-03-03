@@ -16,3 +16,8 @@ echo Hello world
 # we can use double or single quotes, however double quotes are preferred.
 echo -e "\e[31mhello in red color\e[0m"
 echo hello world
+
+
+
+#some times we need to print multiple lines
+echo -e "line1\nline2\nline3"
