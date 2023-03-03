@@ -21,3 +21,4 @@ echo hello world
 
 #some times we need to print multiple lines
 echo -e "line1\nline2\nline3"
+# \e for color, same \n for new line
