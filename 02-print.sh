@@ -12,6 +12,9 @@ echo Hello world
 #magenta       35
 #cyan          36
 
+
+
+
 # \e[0m -> Zero code is going to reset the color, Meaning if we enable color for sure we need it, otherwise the color will continue on screen
 # we can use double or single quotes, however double quotes are preferred.
 echo -e "\e[31mhello in red color\e[0m"
