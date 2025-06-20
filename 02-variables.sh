@@ -1,5 +1,5 @@
-$PERSON1=james
-$PERSON2=shan
+PERSON1=james
+PERSON2=shan
 echo "$PERSON1:: Today you have to work and you had shift at 10:00 to 7:00"
 echo "$PERSON2:: Sure i will be on time $PERSON1"
 echo "$PERSON1:: that's okay $PERSON2"
