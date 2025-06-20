@@ -1,3 +1,4 @@
+#!/bin/bash
 PERSON1=$1
 PERSON2=$2
 echo "$PERSON1:: Today you have to work and you had shift at 10:00 to 7:00"
