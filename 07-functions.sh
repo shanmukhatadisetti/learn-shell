@@ -9,11 +9,11 @@ else
 fi
 
 VALIDATE(){
-    if [ $? -eq 0 ]
+    if [ $1 -eq 0 ]
     then
-        echo "MYSQL is SUCCESSFULLY Installed"
+        echo "$2 is SUCCESSFULLY Installed"
     else
-        echo "MYSQL is not SUCCESSFULLY Installed"
+        echo "$2 is not SUCCESSFULLY Installed"
         exit 1
     fi
 }
