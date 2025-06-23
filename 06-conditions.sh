@@ -16,3 +16,5 @@ then
 else
     echo "ERROR: Your Running with Root User"
 fi
+
+dnf install mysql -y
