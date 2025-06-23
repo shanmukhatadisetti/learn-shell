@@ -24,4 +24,5 @@ then
     echo "MYSQL is SUCCESSFULLY Installed"
 else
     echo "MYSQL is not SUCCESSFULLY Installed"
+    exit 1
 fi
