@@ -13,6 +13,7 @@ USER=$(id -u)
 if [ $USER -ne 0 ]
 then 
     echo "ERROR: You should run with Root User to Execute."
+    exit 1
 else
     echo "ERROR: Your Running with Root User"
 fi
