@@ -18,7 +18,7 @@ else
     echo "ERROR: Your Running with Root User"
 fi
 
-dnf install mysqllll -y
+dnf install mysql -y
 if [ $? -eq 0 ]
 then
     echo "MYSQL is SUCCESSFULLY Installed"
