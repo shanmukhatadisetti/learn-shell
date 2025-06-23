@@ -32,7 +32,7 @@ VALIDATE(){
     fi
 }
 
-for package in ${PACKAGES[0]}
+for package in ${PACKAGES[@]}
 do
     dnf list installed $package
     if [ $? -ne 0 ]
