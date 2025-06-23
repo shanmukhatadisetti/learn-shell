@@ -10,7 +10,7 @@
 # fi
 
 USER=$(id -u)
-if [ $user -eq 0 ]
+if [ $USER -eq 0 ]
 then 
     echo "ERROR: You should run with Root User to Execute."
 else
